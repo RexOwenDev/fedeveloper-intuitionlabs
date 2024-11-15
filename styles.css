@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #b22222;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3MnwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnR8ZW58MHx8fHwxNjA5NzM3MTAx&ixlib=rb-1.2.1&q=80&w=1080') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    animation: fadeInHero 2s ease-in-out;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.read-more {
+    background-color: #b22222;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.read-more:hover {
+    background-color: #800000;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Animations */
+@keyframes fadeInHero {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

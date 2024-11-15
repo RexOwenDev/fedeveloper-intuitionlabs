@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delish Bistro</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Delish Bistro</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center">
+      <div class="container text-center">
+        <h1 class="hero-title">Welcome to Delish Bistro</h1>
+        <p class="lead">
+          Savor the flavors, enjoy the ambiance, and experience excellence in
+          every bite.
+        </p>
+        <a href="#menu" class="btn btn-primary mt-4 hero-button"
+          >Explore Our Menu</a
+        >
+      </div>
+    </section>
+
+    <!-- Menu Section with Responsive Cards -->
+    <section id="menu" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Our Menu</h2>
+          <p class="text-muted">Delicious dishes made with love and passion</p>
+        </div>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-hover">
+              <img
+                src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3MnwwfDF8c2VhcmNofDJ8fGRpc2h8ZW58MHx8fHwxNjA5NzM3MTAxfA&ixlib=rb-1.2.1&q=80&w=1080"
+                class="card-img-top"
+                alt="Dish 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Grilled Steak</h5>
+                <p class="card-text">
+                  Juicy grilled steak served with fresh vegetables and a side of
+                  garlic butter sauce.
+                </p>
+                <a href="#" class="btn read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-hover">
+              <img
+                src="https://images.unsplash.com/photo-1590576502976-a7b6cd63f4dc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Dish 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spaghetti Carbonara</h5>
+                <p class="card-text">
+                  Classic Italian pasta dish with a creamy sauce and topped with
+                  crispy bacon.
+                </p>
+                <a href="#" class="btn read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card card-hover">
+              <img
+                src="https://images.unsplash.com/photo-1669283714145-f97867f6c238?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0"
+                class="card-img-top"
+                alt="Dish 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Caesar Salad</h5>
+                <p class="card-text">
+                  Crispy romaine lettuce, croutons, Parmesan, and Caesar
+                  dressing with a twist.
+                </p>
+                <a href="#" class="btn read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p>
+          &copy; 2024 Delish Bistro | Follow us on
+          <a href="#" class="text-light">Instagram</a> and
+          <a href="#" class="text-light">Facebook</a>
+        </p>
+        <p>123 Foodie Lane, Gourmet City, Country | Phone: +123 456 7890</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap and jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
